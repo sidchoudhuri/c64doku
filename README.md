@@ -25,8 +25,8 @@ A Sudoku game for the Commodore 64, written in pure BASIC V2 (`sudoku.bas`).
 
 ## Building / Running
 
-Look at c64doku.bas BASIC code in a text editor.
-Load the c64doku.prg file in VICE or on a real C64 or C64 Ultimate or Ultimate 64
+- Look at c64doku.bas BASIC code in a text editor.
+- Load the c64doku.prg file in VICE or on a real C64 or C64 Ultimate or Ultimate 64
 
 ## Known limitations
 
