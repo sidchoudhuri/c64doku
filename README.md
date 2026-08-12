@@ -40,6 +40,6 @@ Then run in VICE, or upload the PRG to a real C64 (e.g. via an Ultimate 64's RES
 
 ## File structure
 
-- [`c64doku.bas`](https://github.com/sidchoudhuri/c64doku/blob/main/c64doku.bas)` — full game listing
-- [`c64doku.prg`](https://github.com/sidchoudhuri/c64doku/blob/main/c64doku.prg)` — C64 program file
+- [`c64doku.bas`](https://github.com/sidchoudhuri/c64doku/blob/main/c64doku.bas) — full game listing
+- [`c64doku.prg`](https://github.com/sidchoudhuri/c64doku/blob/main/c64doku.prg) — C64 program file
 
