@@ -25,18 +25,13 @@ A Sudoku game for the Commodore 64, written in pure BASIC V2 (`sudoku.bas`).
 
 ## Building / Running
 
-Convert the listing to a PRG with petcat (part of VICE):
-
-```
-petcat -w2 -o sudoku.prg -- sudoku.bas
-```
-
-Then run in VICE, or upload the PRG to a real C64 (e.g. via an Ultimate 64's REST API).
+Look at c64doku.bas BASIC code in a text editor.
+Load the c64doku.prg file in VICE or on a real C64 or C64 Ultimate or Ultimate 64
 
 ## Known limitations
 
-- Clue removal is random, not solver-verified — puzzles are not guaranteed to have a unique solution.
-- Requires an unmodified BASIC V2 environment (uses direct screen/color RAM POKEs and SID registers).
+- Clue removal is random, not solver-verified
+- Puzzles are not guaranteed to have a unique solution
 
 ## File structure
 
