@@ -15,9 +15,10 @@ Status: **DONE**, **TO DO**, **TO DO LATER**, **MAYBE**.
 | DONE | v4: equal 15x15 cells (solid box lines, dotted cell lines); notes (candidate numbers) with N, side panel, dot on the cell; I shows the instructions |
 | DONE | v5: "Numbers Calm" (only the long tones, the default), T switches tunes; edges clear the keyboard buffer; quicker moving |
 | DONE | v6: Hex64-style menu (sudoku grid with numbers coming and going); collection framework memory map, game at $4001; instant instructions; integer arrays and tables (`framework.md`) |
-| TO DO | v7: self-playing demo |
+| DONE | v7: self-playing demo (menu key D): new puzzles each round, plays like a person with notes, +/- speed, Q to the menu |
 | TO DO | v8: Easy, Normal and Hard boards made by how hard they are to solve, not just by how many numbers are given |
 | TO DO | v9: tutorial that teaches how to play, starting with just a 6x6 board |
 | TO DO | Test on real hardware, including two SIDs and NTSC (only tested in VICE so far) |
+| TO DO | Record a new GIF with the demo for m0n.de and the itch.io page |
 | TO DO | Update the itch.io page (the .d64 instead of the single .prg, new screenshots) |
 | MAYBE | Puzzles checked by a solver so each has exactly one solution |

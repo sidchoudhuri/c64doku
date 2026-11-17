@@ -1,5 +1,20 @@
 # C64Doku devlog
 
+## v7 - 2026-11-16
+
+**Demo**
+- New program `C64DOKUDEMO`, started with D from the menu: the game plays itself, a new random puzzle each round, Easy, Medium and Hard in turn.
+- It plays like a person: it walks the cursor to the nearest cell that can hold only one number and types it, with the same click, blip and bell as the game. Now and then it opens notes (N) on a cell with two or three possible numbers and pencils them in first. When no cell is down to one number it takes the cell with the fewest, so it never gets stuck and never makes a mistake.
+- When the board is full it checks it (C), shows "Solved!" for 3 seconds and starts the next puzzle.
+- Keys: + / - change the speed (5 steps, shown on the status line), T the tune, V or M / E the volume, I the instructions, Q back to the menu.
+- The demo keeps each cell's possible numbers up to date as it plays, and its busiest routines are at the top of the program, where BASIC finds them fastest.
+
+**Menu**
+- New line `D - Demo`; S and Q moved down one row.
+
+**Version**
+- Title, instructions and credits say V7; disk ID 07.
+
 ## v6 - 2026-11-14
 
 **Menu**
